@@ -24,4 +24,4 @@
 - Heroku
 ## Acknowledgments 
 
-
+## License & Copyright
