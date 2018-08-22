@@ -1,5 +1,7 @@
 # project2 (name)
  - content 
+ - motivation
+ - new tech 
 ## Built With 
 
 ## Authors
