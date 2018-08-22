@@ -5,19 +5,19 @@
 ## Authors
 
 ## Technologies Used
-######Front-end
+###### Front-end
 - Node.js
 - Sequelize
 -Express
-######Database
+###### Database
 - MySQL
-######Testing
+###### Testing
 - Chai 
 - Mocha
-######API
+###### API
 
-######Deployment
+###### Deployment
 
-##Acknowledgments 
+## Acknowledgments 
 
 
