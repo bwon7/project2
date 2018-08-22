@@ -21,7 +21,7 @@
 ###### API
 
 ###### Deployment
-
+- Heroku
 ## Acknowledgments 
 
 
