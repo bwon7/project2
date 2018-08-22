@@ -1,4 +1,4 @@
-# project2 (name)
+# project2 (name :fork_and_knife:)
  - content 
  - motivation
  - new tech 
