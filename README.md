@@ -12,7 +12,7 @@
 ###### Front-end
 - Node.js
 - Sequelize
--Express
+- Express
 ###### Database
 - MySQL
 ###### Testing
