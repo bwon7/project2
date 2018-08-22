@@ -3,7 +3,9 @@
 ## Built With 
 
 ## Authors
-
+- Hyun Shin
+- Randy Littlefield
+- Bokyoung Won
 ## Technologies Used
 ###### Front-end
 - Node.js
