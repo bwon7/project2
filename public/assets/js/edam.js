@@ -25,6 +25,7 @@ app.use(function(req, res, next) {
 // Make sure everything works right
 app.get('/', function(req, res){
     res.send("Hello world");
+    
 });
 
 // Make a get call to the edamam api
