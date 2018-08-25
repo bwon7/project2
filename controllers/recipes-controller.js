@@ -5,7 +5,7 @@ var router = express.Router();
 
 router.get("/api/recipes/:id", function (req, res) {
   // Find one Recipe with the id in req.params.id and return them to the user with res.json
-  db.Author.findOne({
+  db.Recipes.findOne({
     where: {
       id: req.params.id
     }

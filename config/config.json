@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "Cook-Ease",
+    "password": "NULL",
+    "database": "Cook_Ease",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
