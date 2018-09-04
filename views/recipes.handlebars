@@ -10,7 +10,6 @@
             <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#">Features</a>
             <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#">Disabled</a>
         </div>
         </div>
     </nav>
@@ -50,25 +49,57 @@
     <hr>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio sint nisi alias corporis animi vel, molestiae quibusdam nulla doloribus, praesentium explicabo mollitia architecto id amet quae ab voluptas recusandae! Inventore.</p>
     <div class="active-pink-3 active-pink-4 mb-4">
-        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        <input id="searchS" class="form-control" type="text" placeholder="Search" aria-label="Search">
         <br>
-        <button type="button" class="btn btn-danger">Find it!</button>
+        <button id="buttonS" type="button" class="btn btn-danger">Find it!</button>
     </div>
     <br>
   </section>
   <br>
      <!--result section-->
   <section>
-    <h1>Mexican</h1>
+    <h1 id="inputS">Mexican</h1>
     <hr>
     <hr>
-    <img src="images/spicy.jpg">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime debitis earum similique aliquam quia ea. Distinctio, deleniti ab quo provident quasi, omnis porro velit qui necessitatibus, dicta nostrum vero et?</p>
-  </section>   
+    <div id="derp">
+      <img src="images/spicy.jpg">
+      
+    </div>
+    <br>
+  </section> 
+
+  <br>  
   
+  <section>
+    <h1>Take the wheels: Find and Post your own recipes!</h1>
+    <hr>
+    <button type="button" class="btn btn-danger"><a href="/cms" style="text-decoration: none; color:white;">Click Me to Post!</a></button>
+    <hr>
+    <hr>
+    <div class="active-pink-3 active-pink-4 mb-4">
+        <input id="searchF" class="form-control" type="text" placeholder="Search" aria-label="Search">
+        <br>
+        <button id="buttonSF" type="button" class="btn btn-danger">Find it!</button>
+    </div>
+    <br>
+  </section>
+    <br>
+
+  <section>
+    <h1 id="inputS">Mexican</h1>
+    <hr>
+    <hr>
+    <div id="derp">
+      <img src="images/spicy.jpg">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime debitis earum similique aliquam quia ea. Distinctio, deleniti ab quo provident quasi, omnis porro velit qui necessitatibus, dicta nostrum vero et?</p>
+    </div>
+    
+    
+  </section>  
+
   <!-- extened feature area ( not mvp related)-->
   <section class="text-center">
-    <h1>Burned down the kitchen? try this resturant instead!</h1>
+    <h1>Burned down the kitchen? Try this resturant instead!</h1>
     <hr>
     <br>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.845264619248!2d-84.3732870845065!3d33.842100880663665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f505f4174f20f5%3A0x60561158f467afc6!2sBones+Restaurant!5e0!3m2!1sen!2sus!4v1535071339246" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -123,3 +154,8 @@
     </div>
 </footer>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+<script type="text/javascript" src="js/api.js">
+
+
+</script>

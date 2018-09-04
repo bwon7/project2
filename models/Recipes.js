@@ -4,18 +4,30 @@ module.exports = function(sequelize, DataTypes) {
     // of the table created in the db
     var Recipes = sequelize.define("Recipes", {
   
-      title: {
+      name: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
           len: [1]
         }
       },
-      body: {
+      recipeName: {
+        type: DataTypes.STRING,
+        allowNull: true,
+        len: [1]
+      },
+      ingredients: {
         type: DataTypes.TEXT,
-        allowNull: false,
+        allowNull: true,
+        len: [1]
+      },
+      instructions: {
+        type: DataTypes.TEXT,
+        allowNull: true,
         len: [1]
       }
+
+
     });
   
     return Recipes;
