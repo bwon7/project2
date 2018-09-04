@@ -16,6 +16,9 @@ const db = require("../models");
 router.get("/", function (req, res) {
   res.render('recipes');
 });
+router.get("/cms", function (req, res) {
+  res.render('cms');
+});
 
 
 
