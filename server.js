@@ -31,6 +31,8 @@ var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
+// Routes
+// =============================================================
 const recipesController = require("./controllers/recipes-controller.js");
 const viewController = require("./controllers/view-controller.js");
 

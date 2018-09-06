@@ -1,0 +1,59 @@
+.carousel-inner{
+    height: 300px;
+}
+
+/*.carousel-caption{
+    font-family: 'Pacifico', cursive;
+}*/
+
+
+
+.title{
+    font-size: 8em;
+}
+    
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+
+#main-container {
+    background-color: oldlace;
+    padding-top: 1px;
+}
+
+#secondary-container{
+    background-color: oldlace;
+}
+
+#main-nav{
+    margin-top: 50px;
+}
+
+section{
+    background-color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+body {
+    font-family: 'Poiret One', cursive;
+    background-color: #efdfee;
+    height:100%;
+    background-image: url("../images/food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.cook {
+    margin-bottom:20px;
+    
+}
