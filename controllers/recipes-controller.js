@@ -24,6 +24,19 @@ router.post("/api/recipes", function (req, res) {
   });
 });
 
+router.get("/api/recipes/:recipeName", function(req, res){
+  db.Recipes.findAll({
+    where: {
+      recipeName: req.params.recipeName
+    }
+  })
+  .then(function(dbRecipes) {
+    res.json(dbRecipes);
+  });
+});
+
+
+
 module.exports = router;
 
 /* router.get("/api/recipes/:id", function (req, res) {
