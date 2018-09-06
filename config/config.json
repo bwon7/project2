@@ -3,8 +3,10 @@
     "username": "root",
     "password": "Tkdgur153b",
     "database": "Cook_Ease",
-    "host": "127.0.0.1",
+    "host": "localhost",
+
     "dialect": "mysql"
+    
   },
   "test": {
     "username": "root",
