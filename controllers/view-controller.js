@@ -7,6 +7,7 @@
 const path = require("path");
 const router = require('express').Router();
 const db = require("../models");
+var express = require('express');
 
 // Routes
 // =============================================================
@@ -19,6 +20,7 @@ router.get("/", function (req, res) {
 router.get("/cms", function (req, res) {
   res.render('cms');
 });
+
 
 
 module.exports = router;

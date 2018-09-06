@@ -53,5 +53,29 @@ $("#buttonS").click(function(){
     });
  
 });
+
+
+$("#buttonSF").click(function(){
+    $("#derps").empty();
+    var recipeName= $("#searchF").val().trim();
+
+    $.get("/api/recipes/" + recipeName, function(data) {
+        
+        for (i = 0; i < data.length; i++) {
+        console.log(data[i].name);
+        var recipeDiv = $("<div class= 'recipe'>");
+        
+        var contN = $("<p>").text(data[i].name);
+        var recipeN = $("<p>").text(data[i].recipeName);
+        var recipeIns = ("<p>").text(data[i].instructions);
+        var recipeIn = ("<p>").text(datap[i].ingredients);
+        
+        recipeDiv.append(recipeN);
+        $("#derps").prepend(recipeDiv);
+
+        }
+    })
+
+});
  
 

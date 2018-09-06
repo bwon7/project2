@@ -27,7 +27,6 @@ module.exports = function(sequelize, DataTypes) {
         len: [1]
       }
 
-
     });
     //Just in case --> Adds a DropTable If Exists
     /* sequelize.sync({
