@@ -58,23 +58,30 @@ $("#buttonS").click(function(){
 $("#buttonSF").click(function(){
     $("#derps").empty();
     var recipeName= $("#searchF").val().trim();
+    $("#inputF").text(recipeName);
 
     $.get("/api/recipes/" + recipeName, function(data) {
         
         for (i = 0; i < data.length; i++) {
         console.log(data[i].name);
         var recipeDiv = $("<div class= 'recipe'>");
+        var recipeTop = $("<div class= 'recipeT'>");
+
+        var contN = $("<h4>Contributor: "+ data[i].name +"</h4>");
+        var recipeN = $("<h4> "+ data[i].recipeName+ " </h4>");                                           
         
-        var contN = $("<p>").text(data[i].name);
-        var recipeN = $("<p>").text(data[i].recipeName);
-        var recipeIns = ("<p>").text(data[i].instructions);
-        var recipeIn = ("<p>").text(datap[i].ingredients);
-        
-        recipeDiv.append(recipeN);
+        var recipeIns = $("<p>").text(data[i].instructions);
+        var recipeIn = $("<p>").text(data[i].ingredients);
+
+        recipeTop.append(contN);
+        recipeTop.append(recipeN);
+        recipeDiv.prepend(recipeTop);
+        recipeDiv.append(recipeIn);
+        recipeDiv.append(recipeIns);
         $("#derps").prepend(recipeDiv);
 
         }
-    })
+    });
 
 });
  

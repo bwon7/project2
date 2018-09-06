@@ -25,7 +25,7 @@ router.post("/api/recipes", function (req, res) {
 });
 
 router.get("/api/recipes/:recipeName", function(req, res){
-  db.Recipes.findAll({
+  db.Recipes.findOne({
     where: {
       recipeName: req.params.recipeName
     }
