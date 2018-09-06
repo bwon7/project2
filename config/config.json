@@ -3,7 +3,7 @@
     "username": "root",
     "password": "Derp",
     "database": "Cook_Ease",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "mysql"
     
   },
