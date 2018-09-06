@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
   
-    // 'Post' in the define method, will be the name
+    // 'Recipes' in the define method, will be the name
     // of the table created in the db
     var Recipes = sequelize.define("Recipes", {
   
@@ -13,22 +13,26 @@ module.exports = function(sequelize, DataTypes) {
       },
       recipeName: {
         type: DataTypes.STRING,
-        allowNull: true,
+        allowNull: false,
         len: [1]
       },
       ingredients: {
         type: DataTypes.TEXT,
-        allowNull: true,
+        allowNull: false,
         len: [1]
       },
       instructions: {
         type: DataTypes.TEXT,
-        allowNull: true,
+        allowNull: false,
         len: [1]
       }
 
 
     });
+    //Just in case --> Adds a DropTable If Exists
+    /* sequelize.sync({
+      force: true
+    }); */
   
     return Recipes;
 };
