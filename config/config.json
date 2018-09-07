@@ -1,9 +1,10 @@
 {
   "development": {
     "username": "root",
-    "password": "Derp",
+    "password": "Tkdgur153b",
     "database": "Cook_Ease",
     "host": "localhost",
+
     "dialect": "mysql"
     
   },
