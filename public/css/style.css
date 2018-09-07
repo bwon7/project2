@@ -55,5 +55,9 @@ body {
 }
 .cook {
     margin-bottom:20px;
-    
+    display:flex;
+    flex-flow: row;
+}
+.imageTitle{
+    margin-right: 10px;
 }
